@@ -9,7 +9,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv('nama_10_gdp_1_Data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/pcanizales/dash_app_example/master/nama_10_gdp_1_Data.csv')
 
 
 app = dash.Dash(__name__)
